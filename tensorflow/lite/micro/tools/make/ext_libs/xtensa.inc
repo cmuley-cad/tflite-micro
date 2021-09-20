@@ -37,6 +37,7 @@ ifeq ($(TARGET_ARCH), hifi5)
 
   THIRD_PARTY_CC_SRCS := $(filter-out $(EXCLUDED_NNLIB_SRCS), $(THIRD_PARTY_CC_SRCS))
 
+
   INCLUDES += \
     -I$(NNLIB_PATH)/ \
     -I$(NNLIB_PATH)/algo/kernels/ \
