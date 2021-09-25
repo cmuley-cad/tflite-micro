@@ -1,1 +1,2 @@
-# place-holder
+CCFLAGS += $(XA_EXTRA_CFLAGS)
+CXXFLAGS += $(XA_EXTRA_CFLAGS)
